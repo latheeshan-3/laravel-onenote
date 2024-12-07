@@ -1,0 +1,68 @@
+/* Share Notes Page - Glassy Dark Theme */
+.share-notes-container {
+    background: rgba(0, 0, 0, 0.5); /* Dark glass background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+.share-notes-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.share-notes-container form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    margin-top: 20px;
+}
+
+.share-notes-container form input,
+.share-notes-container form select {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.share-notes-container form input:focus,
+.share-notes-container form select:focus {
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+.share-notes-container button {
+    padding: 10px 20px;
+    border: none;
+    background: rgba(0, 122, 255, 0.8);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.share-notes-container button:hover {
+    background: rgba(0, 122, 255, 1);
+}
+
+.share-notes-container a {
+    color: #4ca1af;
+    text-decoration: none;
+}
+
+.share-notes-container a:hover {
+    text-decoration: underline;
+}
